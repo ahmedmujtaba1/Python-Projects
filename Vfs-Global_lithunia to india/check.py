@@ -24,7 +24,7 @@ def get_chrome():
     
     chrome_options = uc.ChromeOptions()
     chrome_options.add_argument("--no-sandbox")
-    path = r'C:\Users\ABC\vpn1'
+    path = r'your path for extension Veepn'
     chrome_options.add_argument(f'--load-extension={path}')
 
 #    chrome_options.add_argument('--load-extension=C:/Users/ABC/Downloads/Ahmed Task/proxy_auth_plugin')
@@ -193,9 +193,9 @@ def visa_application(num=num, cnt=cnt):  #
                 playsound(r'C:\Users\ABC\OneDrive\Documents\Python\ring.mp3')
                 import smtplib
 
-                sender_email = "dishamichi8@gmail.com"
-                rec_email = "APPLYGOLDENWHALE@GMAIL.COM"
-                password = "axxlxgxswdzimmfz"
+                sender_email = "your sender email"
+                rec_email = "your reciever email"
+                password = "your app pasword"
                 message = "Hey, this was sent using python.. Bot has get a slot and started booking now !"
 
 
@@ -317,7 +317,7 @@ def visa_application(num=num, cnt=cnt):  #
                 driver.get(link_)
                 time.sleep(3)
 
-                password_ = "@Waheguruji11"
+                password_ = "your password"
                 login_gmail(driver, wait, email, password_)
 
                 driver.implicitly_wait(10)
@@ -455,8 +455,8 @@ def final_scraper():
     global passport, expirydate, codes, phonenumber, email
     try:
         email_ = df['Email'][cnt]
-        email = "amanraman1821@gmail.com"
-        passw = "@Waheguruji11"
+        email = "your lithunia email"
+        passw = "your password"
         fname = df["fname"][cnt]
         lname = df["lname"][cnt]
         birth_of = str(df["Date of Birth"][cnt])
