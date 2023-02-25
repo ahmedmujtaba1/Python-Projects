@@ -1,0 +1,2072 @@
+{
+  "AppName": {
+    "message": "Free VPN for Chrome - VPN Proxy VeePN"
+  },
+  "AppDesc": {
+    "message": "Fast, ultra secure, and easy to use VPN service to protect your privacy online. Enjoy Unlimited Traffic and Bandwidth!"
+  },
+  "Extension": {
+    "message": "Extension"
+  },
+  "SettingNotControllable": {
+    "message": "L'extension ne peut pas contrôler ce paramètre."
+  },
+  "SettingControlledByOther": {
+    "message": "Ce paramètre est contrôlé par une autre extension."
+  },
+  "AllowExtensionNotifications": {
+    "message": "Autoriser les notifications sur le bureau"
+  },
+  "LogMeOutOnClose": {
+    "message": "Me déconnecter à la fermeture du navigateur"
+  },
+  "LogMeOutOnCloseTooltip": {
+    "message": "Une fois le navigateur rouvert, vous serez reconnecté automatiquement"
+  },
+  "LogMeOutOnCloseDisabled": {
+    "message": "Ce paramètre n'est pas contrôlable si les identifiants ne sont pas en mémoire (écran de connexion)"
+  },
+  "TryAgain": {
+    "message": "Réessayer"
+  },
+  "WrongUsernameAndPassword": {
+    "message": "Nom d'utilisateur et/ou mot de passe erronés."
+  },
+  "NetworkError": {
+    "message": "Échec de demande d'authentification à cause d'une erreur réseau. Veuillez réessayer."
+  },
+  "OfflineError": {
+    "message": "La demande d'authentification a échoué car il semble que vous soyez hors-ligne. Veuillez vérifier que vous êtes connecté à Internet."
+  },
+  "TimeoutError": {
+    "message": "La demande d'authentification a échoué après %{seconds} secondes. Veuillez réessayer."
+  },
+  "AbortError": {
+    "message": "La demande d'authentification a été annulée par le navigateur. Veuillez réessayer."
+  },
+  "UnexpectedServerResponse": {
+    "message": "La demande d'authentification a provoqué une erreur serveur inattendue (%{statusLine})"
+  },
+  "TooManyRequestsError": {
+    "message": "Trop de tentatives d'authentification échouées. Réessayez plus tard."
+  },
+  "UnknownError": {
+    "message": "Une erreur inconnue s'est produite."
+  },
+  "PleaseWait": {
+    "message": "Chargement. Veuillez patienter."
+  },
+  "Security": {
+    "message": "Sécurité"
+  },
+  "WebRTCLeakProtection": {
+    "message": "Bloquer la détection d'IP WebRTC"
+  },
+  "WebRTCDescription": {
+    "message": "WebRTC est un protocole de communication basé sur JavaScript, et peut divulguer votre adresse IP réelle"
+  },
+  "MaskUserAgent": {
+    "message": "Modifier l'agent utilisateur"
+  },
+  "MaskUserAgentDescription": {
+    "message": "Rafraîchissez-vous lorsque vous avez besoin d'un nouvel agent utilisateur et notre système le changera au hasard"
+  },
+  "UserAgentSelect": {
+    "message": "Sélectionnez un User-Agen"
+  },
+  "UserAgentRandom": {
+    "message": "Aléatoire"
+  },
+  "UserAgentDefault": {
+    "message": "Défaut"
+  },
+  "RefreshToSeeChanges": {
+    "message": "Rafraîchir pour voir les changements"
+  },
+  "ErrorFileSize": {
+    "message": "Taille du fichier supérieure à 2 Mio"
+  },
+  "ErrorFileExtention": {
+    "message": "Extension de fichier incorrecte"
+  },
+  "ErrorNoFile": {
+    "message": "Aucun fichier ajouté"
+  },
+  "ErrorFileContent": {
+    "message": "There is an issue in file data content"
+  },
+  "SettingsExportSuccess": {
+    "message": "Paramètres exportés avec succès"
+  },
+  "SettingsImportSuccess": {
+    "message": "Paramètres importés avec succès"
+  },
+  "Import": {
+    "message": "Importer"
+  },
+  "Cancel": {
+    "message": "Annuler"
+  },
+  "ConfirmSettingsImportMessage": {
+    "message": "Les paramètres actuels de votre application seront remplacés par les paramètres du fichier externe. Les URL supplémentaires dans les emplacements Intelligents et la liste d'Exclusion seront ajoutés à la configuration actuelle de vos sites."
+  },
+  "SettingsExport": {
+    "message": "Exportation des paramètres"
+  },
+  "SettingsImport": {
+    "message": "Importation des paramètres"
+  },
+  "SettingsImportDescription": {
+    "message": "Vous permet d'utiliser des paramètres partagés par d'autres utilisateurs"
+  },
+  "SettingsExportDescription": {
+    "message": "Vous permet de partager les paramètres pour d'autres utilisateurs"
+  },
+  "BlockReferer": {
+    "message": "Désactiver la fonction de référencement du site"
+  },
+  "BlockRefererDescription": {
+    "message": "Empêcher l'envoi de l'adresse de la page web actuelle vers une autre page web lorsqu'on suit un lien"
+  },
+  "BlockUtm": {
+    "message": "Supprimer les paramètres UTM"
+  },
+  "BlockUtmDescription": {
+    "message": "Supprimez les paramètres UTM (Urchin Tracking Model) des URL sur lesquelles vous cliquez. Ils sont utilisés pour le suivi des informations relatives à votre visite sur un site Web."
+  },
+  "BlockFbclid": {
+    "message": "Suppression des paramètres FBCLID"
+  },
+  "BlockFbclidDescription": {
+    "message": "Supprimez les paramètres Facebook Click Identifier des liens sortants. Ils sont utilisés pour le suivi des informations relatives à votre visite sur un site web."
+  },
+  "BlockGclid": {
+    "message": "Suppression des paramètres GCLID"
+  },
+  "BlockGclidDescription": {
+    "message": "Supprimez les paramètres Google Click Identifier des liens sortants. Ils sont utilisés pour le suivi des informations relatives à votre visite sur un site Web."
+  },
+  "LocationWarp": {
+    "message": "Changement de la localisation"
+  },
+  "LocationWarpDescription": {
+    "message": "Masquez votre position GPS pour qu'elle corresponde à celle du proxy lorsque vous êtes connecté."
+  },
+  "TimeWarp": {
+    "message": "Changement de l'heure"
+  },
+  "TimeWarpDescription": {
+    "message": "Masquez l'heure de votre navigateur pour qu'elle corresponde à l'heure du proxy lorsque vous êtes connecté."
+  },
+  "LanguageWarp": {
+    "message": "Changement de langue"
+  },
+  "LanguageWarpDescription": {
+    "message": "Masquez la langue de votre navigateur pour qu'elle corresponde à celle du proxy lorsque vous êtes connecté."
+  },
+  "BlockAds": {
+    "message": "AdBlock"
+  },
+  "BlockAdsDescription": {
+    "message": "Activez ou désactivez le blocage des publicités dans votre navigateur Chrome lorsque vous utilisez VeePN"
+  },
+  "BlockTrackers": {
+    "message": "Stop Trackers"
+  },
+  "BlockTrackersDescription": {
+    "message": "Activer ou désactiver les trackers analytiques (tels que Google) lors de l'utilisation de VeePN"
+  },
+  "ToggleTheme": {
+    "message": "Mode sombre"
+  },
+  "ToggleThemeDescription": {
+    "message": "Basculer entre les modes sombre et clair"
+  },
+  "AutoConnect": {
+    "message": "Connexion automatique"
+  },
+  "AutoConnectDescription": {
+    "message": "Se connecter automatiquement au démarrage du navigateur"
+  },
+  "BlockSocial": {
+    "message": "Bloc de suivi social"
+  },
+  "BlockSocialDescription": {
+    "message": "Bloquer le suivi des widgets et des boutons des réseaux sociaux"
+  },
+  "BlockCookies": {
+    "message": "Bloquer le push : \"nous utilisons\" des cookies"
+  },
+  "BlockCookiesDescription": {
+    "message": "Bloquer les bannières ennuyeuses \"Nous utilisons des cookies\" sur tous les sites web"
+  },
+  "BlockMalware": {
+    "message": "Éviter les Logiciels Malveillants"
+  },
+  "BlockMalwareDescription": {
+    "message": "Bloque l'accès aux logiciels malveillants connus, au phishing et à d'autres domaines malveillants"
+  },
+  "SmartLocationControlsTitle": {
+    "message": "Ajouter un site web"
+  },
+  "AddSite": {
+    "message": "Ajouter un ou plusieurs sites"
+  },
+  "SmartLocationTitle": {
+    "message": "Localisation intelligente"
+  },
+  "SmartLocationFeatureEnableTitle": {
+    "message": "La localisation intelligente est activée"
+  },
+  "SmartLocationFeatureDisabledTitle": {
+    "message": "La localisation intelligente est désactivée"
+  },
+  "SmartLocationFeatureEnableDescription": {
+    "message": "VeePN changera de localisation automatiquement lorsque vous visiterez vos sites favoris"
+  },
+    "UnlockSmartLocation": {
+    "message": "Déverrouiller la localisation intelligente"
+  },
+   "UnlockSmartLocationDescription": {
+    "message": "Activez le changement automatique de localisation pour vos sites préférés"
+  },
+  "GetPremium": {
+    "message": "Obtenir Premium"
+  },
+    "NoSitesAdded": {
+    "message": "Aucun site ajouté"
+  },
+    "NoSitesAddedDescription": {
+    "message": "Ajoutez vos sites préférés pour changer de localisation automatiquement"
+  },
+   "DeleteButton": {
+    "message": "Supprimer"
+  },
+  "EditButton": {
+    "message": "Modifier"
+  },
+  "SmartLocationListTitle": {
+    "message": "Vos sites Web préférés"
+  },
+  "ErrorDuplicateInSmartLocation": {
+    "message": "Ce site Web ne peut pas être ajouté car il est déjà dans la liste des emplacements intelligents"
+  },
+   "TurnOnSmartLocationBannerButton": {
+    "message": "Connecter la localisation intelligente"
+  },
+  "TurnOnSmartLocationBannerTitle": {
+    "message": "Activer la commutation automatique de l'emplacement"
+  },
+  "DuplicateRuleInList": {
+    "message": "La règle est dupliquée. Supprime s'il te plaît."
+  },
+  "ApplyAllDomains": {
+    "message": "Appliquer à tous les sous-domaines"
+  },
+  "SmartLocationHint": {
+    "message": "Smart Locations est une version actualisée de la fonction Autoprotect : définissez l'emplacement au préalable et connectez-vous à vos sites web préférés en toute confidentialité lorsque vous les visitez."
+  },
+  "AutoExcludeTitle": {
+    "message": "Sauf les sites web"
+  },
+  "AutoExcludeDescription": {
+    "message": "Liste des sites Web que vous voulez contourner lorsque la connexion VeePN est activée"
+  },
+  "AutoExcludeMessage": {
+    "message": "Liste des exceptions : ajoutez les sites web que vous voulez contourner lorsque la connexion VeePN est activée"
+  },
+  "CustomProxies": {
+    "message": "PROXIES PERSONNALISÉS"
+  },
+  "CustomProxy": {
+    "message": "Mandataire personnalisé"
+  },
+  "CustomProxyDescription": {
+    "message": "Permet d'ajouter un serveur proxy personnalisé"
+  },
+  "AddNewProxy": {
+    "message": "Ajouter un nouveau mandataire"
+  },
+  "CustomProxyAlreadyExists": {
+    "message": "Le proxy personnalisé avec ces paramètres existe déjà"
+  },
+  "EditProxy": {
+    "message": "Modifier le proxy"
+  },
+  "CantModify": {
+    "message": "Vous ne pouvez pas modifier ou supprimer ce proxy lorsque la connexion est active"
+  },
+  "EnterPort": {
+    "message": "Entrez le port"
+  },
+  "PortLonger": {
+    "message": "Le port ne peut pas être plus long que 65535"
+  },
+  "EnterHostnameOrIP": {
+    "message": "Entrez le nom d'hôte ou l'IP"
+  },
+  "ServerIpOrHostnameIsIncorrect": {
+    "message": "L'adresse IP ou le nom d'hôte du serveur est incorrect"
+  },
+  "Authorization": {
+    "message": "Autorisation"
+  },
+  "AuthorizationEnabled": {
+    "message": "Autorisation activée"
+  },
+  "AuthorizationDisabled": {
+    "message": "Autorisation désactivée"
+  },
+  "YourCustomProxies": {
+    "message": "Vos proxys personnalisés"
+  },
+  "CustomProxyIsON": {
+    "message": "Le proxy personnalisé est activé"
+  },
+  "CustomProxyIsOFF": {
+    "message": "Le proxy personnalisé est désactivé"
+  },
+  "UnlockCustomProxyDesc": {
+    "message": "Gérez et basculez rapidement entre plusieurs proxys"
+  },
+  "UnlockCustomProxy": {
+    "message": "Déverrouiller le proxy personnalisé"
+  },
+  "EnableAuthorization": {
+    "message": "Activer l'autorisation"
+  },
+  "UsernameToShort": {
+    "message": "Le nom d'utilisateur est trop court"
+  },
+  "UsernameToLong": {
+    "message": "Le nom d'utilisateur est trop long"
+  },
+  "PasswordRequired": {
+    "message": "Mot de passe utilisateur requis"
+  },
+  "PasswordToShort": {
+    "message": "Le mot de passe utilisateur est trop court"
+  },
+  "PasswordToLong": {
+    "message": "Le mot de passe utilisateur est trop long"
+  },
+  "Confirm": {
+    "message": "Confirmer"
+  },
+  "NoProxiesAdded": {
+    "message": "Aucun proxy ajouté"
+  },
+  "UsernameLabel": {
+    "message": "Nom d'utilisateur"
+  },
+  "EnterUsername": {
+    "message": "Entrez le nom d'utilisateur"
+  },
+  "EnterPassword": {
+    "message": "Entrez le mot de passe"
+  },
+  "UsernameRequired": {
+    "message": "Le nom d'utilisateur est requis"
+  },
+  "ServerIpRequired": {
+    "message": "Le nom du serveur ou l'adresse IP du serveur est requis"
+  },
+  "Server": {
+    "message": "Serveur"
+  },
+  "ProtocolSelect": {
+    "message": "Protocole"
+  },
+  "Port": {
+    "message": "Port"
+  },
+  "PortRequired": {
+    "message": "Le port du serveur est requis"
+  },
+  "AddCurrentSite": {
+    "message": "Ajouter le site actuel"
+  },
+  "WelcomeToNewVersion": {
+    "message": "Bienvenue sur %{appVersion}"
+  },
+  "ExtensionUpdated": {
+    "message": "Extension mise à jour"
+  },
+  "NoRegionSelected": {
+    "message": "Aucune région sélectionnée"
+  },
+  "Search": {
+    "message": "Chercher"
+  },
+  "ChangeExtensionSettings": {
+    "message": "Paramètres de l'extension"
+  },
+  "CannotUseVeePNMessage": {
+    "message": "VeePN ne peut pas être utilisé, car une autre extension contrôle les paramètres de proxy de vos navigateurs."
+  },
+  "DisableOtherExtensions": {
+    "message": "Désactiver les autres extensions"
+  },
+  "CloseText": {
+    "message": "Fermer"
+  },
+  "UpgradeBrowserMessage": {
+    "message": "VeePN ne peut être utilisé car votre version de %{browser} est obsolète. Veuillez mettre à jour %{browser} vers sa version la plus récente."
+  },
+  "AuthFailPageTitle": {
+    "message": "Erreur d'authentification |  VeePN"
+  },
+  "AuthFailTitle": {
+    "message": "Erreur d'authentification"
+  },
+  "AuthFailMessage": {
+    "message": "Si vous avez récemment modifié votre mot de passe sur le site web VeePN, une réauthentification avec l'extension pourrait réparer l'erreur.<br/><br/>Pour toute demande d'aide et d'assistance, contactez notre <a href=\"https://support.veepn.com/\">équipe d'assistance.</a>."
+  },
+  "ConnectionFailPageTitle": {
+    "message": "Erreur de connexion | VeePN"
+  },
+  "ConnectionFailTitle": {
+    "message": "Erreur de connexion"
+  },
+  "ConnectionFailMessage": {
+    "message": "Vous avez peut-être perdu votre connexion à Internet, votre connexion s'est peut-être interrompue temporairement ou le serveur VeePN auquel vous vous connectez pourrait présenter des problèmes de connexion."
+  },
+  "NoNetworkConnection": {
+    "message": "Aucune connexion réseau"
+  },
+  "YouAreConnectedTo": {
+    "message": "Vous êtes connecté(e) à %{region}"
+  },
+  "YouAreNotConnected": {
+    "message": "Vous n'êtes pas connecté(e)"
+  },
+  "Enabled": {
+    "message": "activé"
+  },
+  "Disabled": {
+    "message": "désactivé"
+  },
+  "Unavailable": {
+    "message": "indisponible"
+  },
+  "RememberMe": {
+    "message": "Se souvenir de moi"
+  },
+  "RememberMeTooltip": {
+    "message": "Enregistre ces identifiants entre les redémarrages du navigateur"
+  },
+
+  "Name": {
+    "message": "VeePN"
+  },
+  "Powered": {
+    "message": "Propulsé par VeePN"
+  },
+  "Version": {
+    "message": "Version"
+  },
+  "Wait": {
+    "message": "S'il vous plaît, attendez"
+  },
+
+  "ConnectionButtonConnecting": {
+    "message": "De liaison..."
+  },
+  "ConnectionButtonConnected": {
+    "message": "VPN est activé"
+  },
+  "ConnectionButtonDisconnected": {
+    "message": "VPN est désactivé"
+  },
+  "ConnectionButtonDisconnecting": {
+    "message": "Déconnexion ..."
+  },
+
+  "BuyPremium": {
+    "message": "Passer à la version premium"
+  },
+  "BuyGetMore": {
+    "message": "Plus"
+  },
+
+  "BannerDownloadAppTitle": {
+    "message": "Protégez tous vos appareils en téléchargeant l'application"
+  },
+  "BannerDownloadAppMobileHint": {
+    "message": "Simplifiez le téléchargement d'applications sur votre appareil grâce à ce code QR"
+  },
+  "QrCodeTitle": {
+    "message": "Scanner le code QR"
+  },
+  "QrCodeDescription": {
+    "message": "Utilisez la caméra de votre téléphone pour scanner ce code QR et télécharger l'application"
+  },
+
+  "NotificationDownloadTitle": {
+    "message": "Essayez notre client VPN de bureau"
+  },
+  "NotificationDownloadMessage": {
+    "message": "Protégez l'ensemble de votre connexion internet, pas seulement votre navigateur"
+  },
+  "NotificationButtonFreeDownload": {
+    "message": "Téléchargement Gratuit"
+  },
+  "NotificationButtonNextTime": {
+    "message": "Prochaine Fois"
+  },
+
+  "ActivateAccount": {
+    "message": "Activez votre compte!"
+  },
+  "FollowLink": {
+    "message": "Suivez le lien de l'email de confirmation"
+  },
+
+  "MenuAccount": {
+    "message": "Mon compte"
+  },
+  "MenuSettings": {
+    "message": "Réglages"
+  },
+  "MenuHelp": {
+    "message": "Aidez-moi"
+  },
+  "MenuAbout": {
+    "message": "À propos de VeePN"
+  },
+  "MenuUpgrade": {
+    "message": "Passer à la version premium"
+  },
+  "MenuRateUs": {
+    "message": "Évaluez nous"
+  },
+  "MenuGet30Days": {
+    "message": "Obtenez 30 jours gratuits"
+  },
+  "MenuShare": {
+    "message": "Partager cette application"
+  },
+
+  "Login": {
+    "message": "S'identifier"
+  },
+  "Register": {
+    "message": "S'inscrire"
+  },
+
+  "Back": {
+    "message": "Retour"
+  },
+
+  "Logout": {
+    "message": "Déconnexion"
+  },
+  "Restore": {
+    "message": "Envoyer mot de passe"
+  },
+  "SendResetLink": {
+    "message": "Envoyer le lien pour redémarrer"
+  },
+
+  "AboutPrivacy": {
+    "message": "Politique de confidentialité"
+  },
+  "AboutTerms": {
+    "message": "Conditions d'utilisation"
+  },
+
+  "HelpManage": {
+    "message": "Gérer le compte et les appareils"
+  },
+  "HelpSupport": {
+    "message": "Soutien"
+  },
+  "HelpFaq": {
+    "message": "FAQ"
+  },
+  "AccountType": {
+    "message": "Type de comptee"
+  },
+  "Account": {
+    "message": "Compte"
+  },
+  "AccountUpgrade": {
+    "message": "Passer à la version premium"
+  },
+  "AccountUsername": {
+    "message": "Nom d'utilisateur"
+  },
+  "AccountSubscription": {
+    "message": "Abonnement"
+  },
+  "AccountManage": {
+    "message": "Gérer"
+  },
+  "AccountFree": {
+    "message": "Gratuit"
+  },
+  "AccountExpires": {
+    "message": "Expires"
+  },
+
+  "BuyPremiumBannerText": {
+    "message": "Vous avez un compte GRATUIT"
+  },
+  "BuyPremiumBannerButton": {
+    "message": "Améliorer"
+  },
+
+  "RestoreForgot": {
+    "message": "Mot de passe oublié ?"
+  },
+  "ResetPassword": {
+    "message": "Réinitialiser le mot de passe"
+  },
+
+  "Fill": {
+    "message": "Remplir les champs en surbrillance"
+  },
+  "Password8": {
+    "message": "Le mot de passe doit contenir au moins 8 caractères."
+  },
+
+  "SettingsNotifications": {
+    "message": "Notifications"
+  },
+  "SettingsLanguage": {
+    "message": "Langue"
+  },
+
+  "LoginNoAccount": {
+    "message": "Vous n'avez pas de compte ?"
+  },
+  "AuthScreensEmail": {
+    "message": "Adresse e-mail"
+  },
+  "AuthScreensAlreadyHaveAccount": {
+    "message": "Vous avez déjà un compte ?"
+  },
+
+  "LabelEmail": {
+    "message": "Entrer Email"
+  },
+  "LabelEnterPassword": {
+    "message": "Mot de passe"
+  },
+  "LabelCreatePassword": {
+    "message": "Mot de passe"
+  },
+
+  "RegisterDescription": {
+    "message": "En créant un compte, vous acceptez les VeePN"
+  },
+  "RegisterDescriptionAnd": {
+    "message": "Et"
+  },
+  "RegisterHaveAnAccount": {
+    "message": "Vous avez déjà un compte"
+  },
+
+  "TOS": {
+    "message": "Conditions d'utilisation"
+  },
+  "Policy": {
+    "message": "Politique de confidentialité"
+  },
+
+  "ModesCookies": {
+    "message": "Bloqueur de Cookie"
+  },
+  "ModesProxyLocal": {
+    "message": "Contourner le réseau local"
+  },
+  "ModesWebRTC": {
+    "message": "Bloqueur WebRTC"
+  },
+  "ModesTooltipsCookie": {
+    "message": "Activer ou désactiver les cookies Web pendant votre session VeePN."
+  },
+  "ModesTooltipsProxyLocal": {
+    "message": "Contourner les ressources locales, telles que les sites Web situés dans un réseau interne, localhost, etc."
+  },
+  "ModesTooltipsWebRTC": {
+    "message": "WebRTC identifie les adresses IP via le protocole ICE (Interactive Connectivity Establishment). Activez cette fonctionnalité pour empêcher cela."
+  },
+
+  "LocationTitle": {
+    "message": "Serveurs"
+  },
+  "LocationShowMore": {
+    "message": "Montre plus"
+  },
+  "LocationShowLess": {
+    "message": "Montre moins"
+  },
+  "LocationPremiumOnly": {
+    "message": "Emplacement disponible pour les utilisateurs premium"
+  },
+
+  "TooltipPrevious": {
+    "message": "Précédent"
+  },
+  "TooltipNext": {
+    "message": "Suivant"
+  },
+  "TooltipContinue": {
+    "message": "Continuer"
+  },
+  "TooltipDone": {
+    "message": "Début"
+  },
+
+  "UnavailableTitle": {
+    "message": "Interruption de service"
+  },
+  "UnavailableDescription": {
+    "message": "Une autre extension %{browser} qui contrôle vos paramètres de proxy interrompt les performances de VeePN."
+  },
+  "UnavailableDisable": {
+    "message": "S'il vous plaît, désactivez l'extension"
+  },
+
+  "MapTitle": {
+    "message": "En parcourant depuis:"
+  },
+  "MapOptimal": {
+    "message": "Serveur automatique"
+  },
+
+  "RateUsTitle": {
+    "message": "Amour VeePN?"
+  },
+  "RateUsText": {
+    "message": "Cliquez sur les étoiles pour nous évaluer"
+  },
+  "RateUsThankYou": {
+    "message": "Je vous remercie!"
+  },
+  "RateUsRedirect1": {
+    "message": "Vous êtes génial!\nVeuillez prendre un moment pour nous attribuer 5 étoiles sur %{browser} Web Store."
+  },
+  "RateUsRedirect2": {
+    "message": "Dans un instant, vous serez redirigé..."
+  },
+
+  "StatisticCookies": {
+    "message": "Cookies"
+  },
+
+  "IntroTitle": {
+    "message": "Merci d'avoir installé VeePN!"
+  },
+  "IntroRow1": {
+    "message": "Obtenez plus avec VeePN Premium"
+  },
+  "IntroRow2": {
+    "message": "Support multi-périphérique"
+  },
+  "IntroRow3": {
+    "message": "Emplacements de serveur Premium"
+  },
+  "IntroRow4": {
+    "message": "Données illimitées et bande passante"
+  },
+  "IntroRow5": {
+    "message": "Support client dédié"
+  },
+  "IntroRow6": {
+    "message": "Expérience de navigation sans publicité"
+  },
+  "IntroRow7": {
+    "message": "ou téléchargez VeePN pour:"
+  },
+
+  "ConfigurationTitle": {
+    "message": "Configuration"
+  },
+  "LocationListTitle": {
+    "message": "Emplacements"
+  },
+
+  "TrialThanks": {
+    "message": "Commencer une version gratuite"
+  },
+  "TrialOneTime": {
+    "message": "Offre ponctuelle"
+  },
+  "TrialTitle": {
+    "message": "Obtenez plus avec VeePN Premium"
+  },
+  "TrialRow1": {
+    "message": "Support multi-périphérique"
+  },
+  "TrialRow2": {
+    "message": "Emplacements de serveur Premium"
+  },
+  "TrialRow3": {
+    "message": "Données illimitées et bande passante"
+  },
+
+  "TrialUpgrade": {
+    "message": "Passer à la version premium"
+  },
+  "TrialGetMore": {
+    "message": "Plus"
+  },
+  "HoursOfTtrialLeft": {
+    "message": "heure(s) du procès restant"
+  },
+  "WrongEmailAndPassword": {
+    "message": "E-mail ou mot de passe incorrect."
+  },
+  "WrongEmail": {
+    "message": "L'email est incorrect."
+  },
+  "WrongPassword": {
+    "message": "Le mot de passe est incorrect."
+  },
+  "extName": {
+    "message": "uBlock Origin",
+    "description": "extension name."
+  },
+  "extShortDesc": {
+    "message": "Un bloqueur de nuisances efficace, qui ménagera votre processeur et votre mémoire vive.",
+    "description": "this will be in the Chrome web store: must be 132 characters or less"
+  },
+  "dashboardName": {
+    "message": "uBlock₀ — Tableau de bord",
+    "description": "English: uBlock₀ — Dashboard"
+  },
+  "dashboardUnsavedWarning": {
+    "message": "Attention, vous avez des changements non enregistrés !",
+    "description": "A warning in the dashboard when navigating away from unsaved changes"
+  },
+  "dashboardUnsavedWarningStay": {
+    "message": "Rester",
+    "description": "Label for button to prevent navigating away from unsaved changes"
+  },
+  "dashboardUnsavedWarningIgnore": {
+    "message": "Ignorer",
+    "description": "Label for button to ignore unsaved changes"
+  },
+  "settingsPageName": {
+    "message": "Paramètres",
+    "description": "appears as tab name in dashboard"
+  },
+  "3pPageName": {
+    "message": "Listes de filtres",
+    "description": "appears as tab name in dashboard"
+  },
+  "1pPageName": {
+    "message": "Mes filtres",
+    "description": "appears as tab name in dashboard"
+  },
+  "rulesPageName": {
+    "message": "Mon filtrage dynamique",
+    "description": "appears as tab name in dashboard"
+  },
+  "whitelistPageName": {
+    "message": "Sites Web fiables",
+    "description": "appears as tab name in dashboard"
+  },
+  "shortcutsPageName": {
+    "message": "Raccourcis",
+    "description": "appears as tab name in dashboard"
+  },
+  "statsPageName": {
+    "message": "uBlock₀ — Journal des requêtes réseau",
+    "description": "Title for the logger window"
+  },
+  "aboutPageName": {
+    "message": "À propos",
+    "description": "appears as tab name in dashboard"
+  },
+  "assetViewerPageName": {
+    "message": "uBlock₀ — Visionneuse d'éléments",
+    "description": "Title for the asset viewer page"
+  },
+  "advancedSettingsPageName": {
+    "message": "Paramètres avancés",
+    "description": "Title for the advanced settings page"
+  },
+  "popupPowerSwitchInfo": {
+    "message": "Clic : Désactiver/Activer uBlock₀ pour ce site.\n\nCtrl+clic : Désactiver uBlock₀ uniquement sur cette page.",
+    "description": "English: Click: disable/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+  },
+  "popupPowerSwitchInfo1": {
+    "message": "Cliquez pour désactiver uBlock₀  pour ce site\n\nCtrl+Clic pour désactiver uBlock₀ uniquement pour cette page",
+    "description": "Message to be read by screen readers"
+  },
+  "popupPowerSwitchInfo2": {
+    "message": "Cliquez pour activer uBlock₀ pour ce site",
+    "description": "Message to be read by screen readers"
+  },
+  "popupBlockedRequestPrompt": {
+    "message": "Requêtes bloquées",
+    "description": "English: requests blocked"
+  },
+  "popupBlockedOnThisPagePrompt": {
+    "message": "sur cette page :",
+    "description": "English: on this page"
+  },
+  "popupBlockedStats": {
+    "message": "{{count}}, soit {{percent}}%",
+    "description": "Example: 15 (13%)"
+  },
+  "popupBlockedSinceInstallPrompt": {
+    "message": "depuis toujours :",
+    "description": "English: since install"
+  },
+  "popupOr": {
+    "message": "soit",
+    "description": "English: or"
+  },
+  "popupBlockedOnThisPage_v2": {
+    "message": "Bloqués sur cette page",
+    "description": "For the new mobile-friendly popup design"
+  },
+  "popupBlockedSinceInstall_v2": {
+    "message": "Bloqués depuis l'installation",
+    "description": "For the new mobile-friendly popup design"
+  },
+  "popupDomainsConnected_v2": {
+    "message": "Domaines connectés",
+    "description": "For the new mobile-friendly popup design"
+  },
+  "popupTipDashboard": {
+    "message": "Ouvrir le Tableau de bord",
+    "description": "English: Click to open the dashboard"
+  },
+  "popupTipZapper": {
+    "message": "Entrer en mode Zappeur",
+    "description": "Tooltip for the element-zapper icon in the popup panel"
+  },
+  "popupTipPicker": {
+    "message": "Entrer en mode Sélecteur",
+    "description": "English: Enter element picker mode"
+  },
+  "popupTipLog": {
+    "message": "Ouvrir le journal des requêtes",
+    "description": "Tooltip used for the logger icon in the panel"
+  },
+  "popupTipNoPopups": {
+    "message": "Activer/Désactiver le blocage des fenêtres pop-ups pour ce site",
+    "description": "Tooltip for the no-popups per-site switch"
+  },
+  "popupTipNoPopups1": {
+    "message": "Cliquez pour bloquer toutes les pop-ups de ce site",
+    "description": "Tooltip for the no-popups per-site switch"
+  },
+  "popupTipNoPopups2": {
+    "message": "Cliquez pour cesser de bloquer toutes les pop-ups de ce site",
+    "description": "Tooltip for the no-popups per-site switch"
+  },
+  "popupTipNoLargeMedia": {
+    "message": "Bloquer/Autoriser le chargement d'éléments médias à taille plus importante pour ce site",
+    "description": "Tooltip for the no-large-media per-site switch"
+  },
+  "popupTipNoLargeMedia1": {
+    "message": "Cliquez pour bloquer les médias de grande taille sur ce site",
+    "description": "Tooltip for the no-large-media per-site switch"
+  },
+  "popupTipNoLargeMedia2": {
+    "message": "Cliquez pour cesser de bloquer les médias de grande taille sur ce site",
+    "description": "Tooltip for the no-large-media per-site switch"
+  },
+  "popupTipNoCosmeticFiltering": {
+    "message": "Activer/Désactiver le filtrage esthétique pour ce site",
+    "description": "Tooltip for the no-cosmetic-filtering per-site switch"
+  },
+  "popupTipNoCosmeticFiltering1": {
+    "message": "Cliquez pour désactiver le filtrage esthétique sur ce site",
+    "description": "Tooltip for the no-cosmetic-filtering per-site switch"
+  },
+  "popupTipNoCosmeticFiltering2": {
+    "message": "Cliquez pour activer le filtrage esthétique sur ce site",
+    "description": "Tooltip for the no-cosmetic-filtering per-site switch"
+  },
+  "popupTipNoRemoteFonts": {
+    "message": "Autoriser/Bloquer le téléchargement des polices d'écriture distantes pour ce site",
+    "description": "Tooltip for the no-remote-fonts per-site switch"
+  },
+  "popupTipNoRemoteFonts1": {
+    "message": "Cliquez pour bloquer les polices d'écriture distantes sur ce site",
+    "description": "Tooltip for the no-remote-fonts per-site switch"
+  },
+  "popupTipNoRemoteFonts2": {
+    "message": "Cliquez pour cesser de bloquer les polices d'écriture distantes sur ce site",
+    "description": "Tooltip for the no-remote-fonts per-site switch"
+  },
+  "popupTipNoScripting1": {
+    "message": "Cliquez pour désactiver JavaScript sur ce site",
+    "description": "Tooltip for the no-scripting per-site switch"
+  },
+  "popupTipNoScripting2": {
+    "message": "Cliquez pour cesser de désactiver JavaScript sur ce site",
+    "description": "Tooltip for the no-scripting per-site switch"
+  },
+  "popupNoPopups_v2": {
+    "message": "Fenêtres pop-ups",
+    "description": "Caption for the no-popups per-site switch"
+  },
+  "popupNoLargeMedia_v2": {
+    "message": "Médias de grande taille",
+    "description": "Caption for the no-large-media per-site switch"
+  },
+  "popupNoCosmeticFiltering_v2": {
+    "message": "Filtrage esthétique",
+    "description": "Caption for the no-cosmetic-filtering per-site switch"
+  },
+  "popupNoRemoteFonts_v2": {
+    "message": "Polices d'écriture distantes",
+    "description": "Caption for the no-remote-fonts per-site switch"
+  },
+  "popupNoScripting_v2": {
+    "message": "JavaScript",
+    "description": "Caption for the no-scripting per-site switch"
+  },
+  "popupMoreButton_v2": {
+    "message": "Plus",
+    "description": "Label to be used to show popup panel sections"
+  },
+  "popupLessButton_v2": {
+    "message": "Moins",
+    "description": "Label to be used to hide popup panel sections"
+  },
+  "popupTipGlobalRules": {
+    "message": "Règles globales : Cette colonne concerne des règles qui s'appliquent partout.",
+    "description": "Tooltip when hovering the top-most cell of the global-rules column."
+  },
+  "popupTipLocalRules": {
+    "message": "Règles locales : Cette colonne concerne des règles qui ne s'appliquent que sur le site actuellement visité.\nLes règles locales supplantent les règles globales.",
+    "description": "Tooltip when hovering the top-most cell of the local-rules column."
+  },
+  "popupTipSaveRules": {
+    "message": "Cliquez pour rendre les changements opérés permanents.",
+    "description": "Tooltip when hovering over the padlock in the dynamic filtering pane."
+  },
+  "popupTipRevertRules": {
+    "message": "Cliquez pour annuler les changements opérés.",
+    "description": "Tooltip when hovering over the eraser in the dynamic filtering pane."
+  },
+  "popupAnyRulePrompt": {
+    "message": "Tout",
+    "description": ""
+  },
+  "popupImageRulePrompt": {
+    "message": "Images",
+    "description": ""
+  },
+  "popup3pAnyRulePrompt": {
+    "message": "Tierce-partie",
+    "description": ""
+  },
+  "popup3pPassiveRulePrompt": {
+    "message": "CSS/Images de tierce-partie",
+    "description": ""
+  },
+  "popupInlineScriptRulePrompt": {
+    "message": "Scripts embarqués",
+    "description": ""
+  },
+  "popup1pScriptRulePrompt": {
+    "message": "Scripts du domaine de la page",
+    "description": ""
+  },
+  "popup3pScriptRulePrompt": {
+    "message": "Scripts de tierce-partie",
+    "description": ""
+  },
+  "popup3pFrameRulePrompt": {
+    "message": "Cadres de tierce-partie",
+    "description": ""
+  },
+  "popupHitDomainCountPrompt": {
+    "message": "Domaines connectés",
+    "description": "appears in popup"
+  },
+  "popupHitDomainCount": {
+    "message": "{{count}} sur un total de {{total}}",
+    "description": "appears in popup"
+  },
+  "popupVersion": {
+    "message": "Version",
+    "description": "Example of use: Version 1.26.4"
+  },
+  "pickerCreate": {
+    "message": "Créer",
+    "description": "English: Create"
+  },
+  "pickerPick": {
+    "message": "Cibler",
+    "description": "English: Pick"
+  },
+  "pickerQuit": {
+    "message": "Quitter",
+    "description": "English: Quit"
+  },
+  "pickerPreview": {
+    "message": "Aperçu",
+    "description": "Element picker preview mode: will cause the elements matching the current filter to be removed from the page"
+  },
+  "pickerNetFilters": {
+    "message": "Filtres de réseau",
+    "description": "English: header for a type of filter in the element picker dialog"
+  },
+  "pickerCosmeticFilters": {
+    "message": "Filtres esthétiques",
+    "description": "English: Cosmetic filters"
+  },
+  "pickerCosmeticFiltersHint": {
+    "message": "Clic, Ctrl-clic",
+    "description": "English: Click, Ctrl-click"
+  },
+  "pickerContextMenuEntry": {
+    "message": "Bloquer un élément",
+    "description": "An entry in the browser's contextual menu"
+  },
+  "settingsCollapseBlockedPrompt": {
+    "message": "Cacher les espaces réservés aux éléments bloqués",
+    "description": "English: Hide placeholders of blocked elements"
+  },
+  "settingsIconBadgePrompt": {
+    "message": "Afficher le nombre de requêtes bloquées sur l'icône",
+    "description": "English: Show the number of blocked requests on the icon"
+  },
+  "settingsTooltipsPrompt": {
+    "message": "Désactiver les infobulles",
+    "description": "A checkbox in the Settings pane"
+  },
+  "settingsContextMenuPrompt": {
+    "message": "Utiliser le menu contextuel si possible",
+    "description": "English: Make use of context menu where appropriate"
+  },
+  "settingsColorBlindPrompt": {
+    "message": "Mode Daltonien",
+    "description": "English: Color-blind friendly"
+  },
+  "settingsCloudStorageEnabledPrompt": {
+    "message": "Activer le stockage des paramètres dans le nuage",
+    "description": ""
+  },
+  "settingsAdvancedUserPrompt": {
+    "message": "Activer les fonctionnalités avancées (<a href='https://github.com/gorhill/uBlock/wiki/Advanced-user-features'>À lire</a>)",
+    "description": ""
+  },
+  "settingsAdvancedUserSettings": {
+    "message": "Paramètres avancés",
+    "description": "For the tooltip of a link which gives access to advanced settings"
+  },
+  "settingsPrefetchingDisabledPrompt": {
+    "message": "Désactiver la prédiction des actions sur le réseau (afin d'empêcher toute connexion pour les requêtes réseau bloquées)",
+    "description": "English: "
+  },
+  "settingsHyperlinkAuditingDisabledPrompt": {
+    "message": "Désactiver l'audit hyperlien",
+    "description": "English: "
+  },
+  "settingsWebRTCIPAddressHiddenPrompt": {
+    "message": "Empêcher la fuite des adresses IP locales via WebRTC",
+    "description": "English: "
+  },
+  "settingPerSiteSwitchGroup": {
+    "message": "Comportement par défaut",
+    "description": ""
+  },
+  "settingPerSiteSwitchGroupSynopsis": {
+    "message": "Ces comportements par défaut peuvent être remplacés au cas par cas",
+    "description": ""
+  },
+  "settingsNoCosmeticFilteringPrompt": {
+    "message": "Désactiver le filtrage esthétique",
+    "description": ""
+  },
+  "settingsNoLargeMediaPrompt": {
+    "message": "Bloquer les éléments médias d'une taille supérieure à {{input}} Ko",
+    "description": ""
+  },
+  "settingsNoRemoteFontsPrompt": {
+    "message": "Bloquer les polices d'écriture distantes",
+    "description": ""
+  },
+  "settingsNoScriptingPrompt": {
+    "message": "Désactiver JavaScript",
+    "description": "The default state for the per-site no-scripting switch"
+  },
+  "settingsNoCSPReportsPrompt": {
+    "message": "Bloquer les rapports CSP",
+    "description": "background information: https://github.com/gorhill/uBlock/issues/3150"
+  },
+  "settingsLastRestorePrompt": {
+    "message": "Date de la dernière restauration :",
+    "description": "English: Last restore:"
+  },
+  "settingsLastBackupPrompt": {
+    "message": "Date de la dernière sauvegarde :",
+    "description": "English: Last backup:"
+  },
+  "3pListsOfBlockedHostsPrompt": {
+    "message": "{{netFilterCount}} filtre(s) réseau et {{cosmeticFilterCount}} filtre(s) esthétique(s) sont actuellement en vigueur :",
+    "description": "Appears at the top of the _3rd-party filters_ pane"
+  },
+  "3pListsOfBlockedHostsPerListStats": {
+    "message": "{{used}} utilisé(s) sur un total de {{total}}",
+    "description": "Appears aside each filter list in the _3rd-party filters_ pane"
+  },
+  "3pAutoUpdatePrompt1": {
+    "message": "Mettre à jour les listes de filtres sélectionnées automatiquement",
+    "description": "A checkbox in the _3rd-party filters_ pane"
+  },
+  "3pUpdateNow": {
+    "message": "Mettre à jour maintenant",
+    "description": "A button in the in the _3rd-party filters_ pane"
+  },
+  "3pPurgeAll": {
+    "message": "Vider tous les caches",
+    "description": "A button in the in the _3rd-party filters_ pane"
+  },
+  "3pParseAllABPHideFiltersPrompt1": {
+    "message": "Utiliser en plus les règles esthétiques",
+    "description": "English: Parse and enforce Adblock+ element hiding filters."
+  },
+  "3pParseAllABPHideFiltersInfo": {
+    "message": "Les filtres esthétiques servent à cacher des éléments d'une page Web considérés comme une nuisance visuelle, et qui ne peuvent pas être bloqués par le filtrage réseau basé sur les requêtes.",
+    "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
+  },
+  "3pIgnoreGenericCosmeticFilters": {
+    "message": "Ignorer les filtres esthétiques génériques",
+    "description": "This will cause uBO to ignore all generic cosmetic filters."
+  },
+  "3pIgnoreGenericCosmeticFiltersInfo": {
+    "message": "Les filtres esthétiques génériques sont des filtres esthétiques conçus pour être appliqués sur tous les sites Web. Activer cette option réduira l'utilisation en mémoire et en processeur sur les pages Web.\n\nIl est recommandé d'activer ce paramètre sur des appareils à la puissance modeste.",
+    "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
+  },
+  "3pListsOfBlockedHostsHeader": {
+    "message": "Listes prédéfinies d'hôtes à bloquer",
+    "description": "English: Lists of blocked hosts"
+  },
+  "3pApplyChanges": {
+    "message": "Appliquer",
+    "description": "English: Apply changes"
+  },
+  "3pGroupDefault": {
+    "message": "Intégrées",
+    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+  },
+  "3pGroupAds": {
+    "message": "Publicités",
+    "description": "English: Ads"
+  },
+  "3pGroupPrivacy": {
+    "message": "Confidentialité",
+    "description": "English: Privacy"
+  },
+  "3pGroupMalware": {
+    "message": "Domaines malveillants",
+    "description": "English: Malware domains"
+  },
+  "3pGroupAnnoyances": {
+    "message": "Nuisances",
+    "description": "The header identifying the filter lists in the category 'annoyances'"
+  },
+  "3pGroupMultipurpose": {
+    "message": "Tout usage",
+    "description": "English: Multipurpose"
+  },
+  "3pGroupRegions": {
+    "message": "Régions, langues",
+    "description": "English: Regions, languages"
+  },
+  "3pGroupCustom": {
+    "message": "Vos propres listes",
+    "description": "English: Custom"
+  },
+  "3pImport": {
+    "message": "Importer",
+    "description": "The label for the checkbox used to import external filter lists"
+  },
+  "3pExternalListsHint": {
+    "message": "Une adresse Web par ligne. Les adresses Web invalides seront ignorées sans avertissement.",
+    "description": "Short information about how to use the textarea to import external filter lists by URL"
+  },
+  "3pExternalListObsolete": {
+    "message": "Obsolète",
+    "description": "used as a tooltip for the out-of-date icon beside a list"
+  },
+  "3pViewContent": {
+    "message": "Voir le contenu",
+    "description": "used as a tooltip for eye icon beside a list"
+  },
+  "3pLastUpdate": {
+    "message": "Dernière mise à jour effectuée : {{ago}}\nCliquez pour forcer la mise à jour",
+    "description": "used as a tooltip for the clock icon beside a list"
+  },
+  "3pUpdating": {
+    "message": "Mise à jour en cours...",
+    "description": "used as a tooltip for the spinner icon beside a list"
+  },
+  "3pNetworkError": {
+    "message": "Une erreur réseau a empêché la mise à jour de la ressource.",
+    "description": "used as a tooltip for error icon beside a list"
+  },
+  "1pFormatHint": {
+    "message": "Une règle par ligne. Une règle peut être un simple nom d'hôte, ou encore une règle compatible EasyList. Les lignes débutant par <code>!</code> seront ignorées.",
+    "description": "Short information about how to create custom filters"
+  },
+  "1pImport": {
+    "message": "Importer",
+    "description": "English: Import and append"
+  },
+  "1pExport": {
+    "message": "Exporter",
+    "description": "English: Export"
+  },
+  "1pExportFilename": {
+    "message": "mes-filtres-statiques-ublock_{{datetime}}.txt",
+    "description": "English: my-ublock-static-filters_{{datetime}}.txt"
+  },
+  "1pApplyChanges": {
+    "message": "Appliquer",
+    "description": "English: Apply changes"
+  },
+  "rulesPermanentHeader": {
+    "message": "Règles permanentes",
+    "description": "header"
+  },
+  "rulesTemporaryHeader": {
+    "message": "Règles temporaires",
+    "description": "header"
+  },
+  "rulesRevert": {
+    "message": "Rétablir",
+    "description": "This will remove all temporary rules"
+  },
+  "rulesCommit": {
+    "message": "Appliquer",
+    "description": "This will persist temporary rules"
+  },
+  "rulesEdit": {
+    "message": "Éditer",
+    "description": "Will enable manual-edit mode (textarea)"
+  },
+  "rulesEditSave": {
+    "message": "Enregistrer",
+    "description": "Will save manually-edited content and exit manual-edit mode"
+  },
+  "rulesEditDiscard": {
+    "message": "Annuler",
+    "description": "Will discard manually-edited content and exit manual-edit mode"
+  },
+  "rulesImport": {
+    "message": "Importer à partir du fichier",
+    "description": ""
+  },
+  "rulesExport": {
+    "message": "Exporter vers un fichier",
+    "description": ""
+  },
+  "rulesDefaultFileName": {
+    "message": "mes-regles-de-filtrage-dynamique-ublock_{{datetime}}.txt",
+    "description": "default file name to use"
+  },
+  "rulesHint": {
+    "message": "Liste de vos règles de filtrage dynamique",
+    "description": "English: List of your dynamic filtering rules."
+  },
+  "rulesFormatHint": {
+    "message": "Syntaxe : <code>source destination type action</code> (<a href='https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax'>Documentation complète en anglais</a>)",
+    "description": "English: dynamic rule syntax and full documentation."
+  },
+  "rulesSort": {
+    "message": "Trier :",
+    "description": "English: label for sort option."
+  },
+  "rulesSortByType": {
+    "message": "Type de règle",
+    "description": "English: a sort option for list of rules."
+  },
+  "rulesSortBySource": {
+    "message": "Source",
+    "description": "English: a sort option for list of rules."
+  },
+  "rulesSortByDestination": {
+    "message": "Destination",
+    "description": "English: a sort option for list of rules."
+  },
+  "whitelistPrompt": {
+    "message": "Les sites Web déclarés comme fiables auprès d'uBlock Origin ne seront pas traités par ce dernier.\nUne entrée par ligne. Les entrées invalides seront silencieusement ignorées et commentées.",
+    "description": "The name of the trusted sites pane."
+  },
+  "whitelistImport": {
+    "message": "Importer",
+    "description": "English: Import and append"
+  },
+  "whitelistExport": {
+    "message": "Exporter",
+    "description": "English: Export"
+  },
+  "whitelistExportFilename": {
+    "message": "mes-sites-fiables-ublock-{{datetime}}.txt",
+    "description": "The default filename to use for import/export purpose"
+  },
+  "whitelistApply": {
+    "message": "Appliquer",
+    "description": "English: Apply changes"
+  },
+  "logRequestsHeaderType": {
+    "message": "Type",
+    "description": "English: Type"
+  },
+  "logRequestsHeaderDomain": {
+    "message": "Domaine",
+    "description": "English: Domain"
+  },
+  "logRequestsHeaderURL": {
+    "message": "URL",
+    "description": "English: URL"
+  },
+  "logRequestsHeaderFilter": {
+    "message": "Filtre",
+    "description": "English: Filter"
+  },
+  "logAll": {
+    "message": "Tout",
+    "description": "Appears in the logger's tab selector"
+  },
+  "logBehindTheScene": {
+    "message": "En coulisses",
+    "description": "Pretty name for behind-the-scene network requests"
+  },
+  "loggerCurrentTab": {
+    "message": "Onglet courant",
+    "description": "Appears in the logger's tab selector"
+  },
+  "loggerReloadTip": {
+    "message": "Recharger le contenu de l'onglet",
+    "description": "Tooltip for the reload button in the logger page"
+  },
+  "loggerDomInspectorTip": {
+    "message": "Activer/Désactiver l'Inspecteur DOM",
+    "description": "Tooltip for the DOM inspector button in the logger page"
+  },
+  "loggerPopupPanelTip": {
+    "message": "Activer/Désactiver le panneau pop-up",
+    "description": "Tooltip for the popup panel button in the logger page"
+  },
+  "loggerInfoTip": {
+    "message": "Page Wiki uBlock Origin : Le journal",
+    "description": "Tooltip for the top-right info label in the logger page"
+  },
+  "loggerClearTip": {
+    "message": "Vider le journal",
+    "description": "Tooltip for the eraser in the logger page; used to blank the content of the logger"
+  },
+  "loggerPauseTip": {
+    "message": "Mettre en pause le journal (désactive toutes les données entrantes)",
+    "description": "Tooltip for the pause button in the logger page"
+  },
+  "loggerUnpauseTip": {
+    "message": "Terminer la mise en pause du journal",
+    "description": "Tooltip for the play button in the logger page"
+  },
+  "loggerRowFiltererButtonTip": {
+    "message": "Activer le filtrage du journal",
+    "description": "Tooltip for the row filterer button in the logger page"
+  },
+  "logFilterPrompt": {
+    "message": "Filtrer le contenu du journal",
+    "description": "Placeholder string for logger output filtering input field"
+  },
+  "loggerRowFiltererBuiltinTip": {
+    "message": "Options de filtrage du journal",
+    "description": "Tooltip for the button to bring up logger output filtering options"
+  },
+  "loggerRowFiltererBuiltinNot": {
+    "message": "Pas",
+    "description": "A keyword in the built-in row filtering expression"
+  },
+  "loggerRowFiltererBuiltinEventful": {
+    "message": "dynamique",
+    "description": "A keyword in the built-in row filtering expression: all items corresponding to uBO doing something (blocked, allowed, redirected, etc.)"
+  },
+  "loggerRowFiltererBuiltinBlocked": {
+    "message": "bloquée",
+    "description": "A keyword in the built-in row filtering expression"
+  },
+  "loggerRowFiltererBuiltinAllowed": {
+    "message": "autorisée",
+    "description": "A keyword in the built-in row filtering expression"
+  },
+  "loggerRowFiltererBuiltin1p": {
+    "message": "Domaine de la page",
+    "description": "A keyword in the built-in row filtering expression"
+  },
+  "loggerRowFiltererBuiltin3p": {
+    "message": "Tierce-partie",
+    "description": "A keyword in the built-in row filtering expression"
+  },
+  "loggerEntryDetailsHeader": {
+    "message": "Détails",
+    "description": "Small header to identify the 'Details' pane for a specific logger entry"
+  },
+  "loggerEntryDetailsFilter": {
+    "message": "Filtre",
+    "description": "Label to identify a filter field"
+  },
+  "loggerEntryDetailsFilterList": {
+    "message": "Liste de filtres",
+    "description": "Label to identify a filter list field"
+  },
+  "loggerEntryDetailsRule": {
+    "message": "Règle",
+    "description": "Label to identify a rule field"
+  },
+  "loggerEntryDetailsContext": {
+    "message": "Contexte",
+    "description": "Label to identify a context field (typically a hostname)"
+  },
+  "loggerEntryDetailsRootContext": {
+    "message": "Contexte racine",
+    "description": "Label to identify a root context field (typically a hostname)"
+  },
+  "loggerEntryDetailsPartyness": {
+    "message": "Niveau de partie",
+    "description": "Label to identify a field providing partyness information"
+  },
+  "loggerEntryDetailsType": {
+    "message": "Type",
+    "description": "Label to identify the type of an entry"
+  },
+  "loggerEntryDetailsURL": {
+    "message": "Lien",
+    "description": "Label to identify the URL of an entry"
+  },
+  "loggerURLFilteringHeader": {
+    "message": "Règle de lien",
+    "description": "Small header to identify the dynamic URL filtering section"
+  },
+  "loggerURLFilteringContextLabel": {
+    "message": "Contexte :",
+    "description": "Label for the context selector"
+  },
+  "loggerURLFilteringTypeLabel": {
+    "message": "Type :",
+    "description": "Label for the type selector"
+  },
+  "loggerStaticFilteringHeader": {
+    "message": "Filtre statique",
+    "description": "Small header to identify the static filtering section"
+  },
+  "loggerStaticFilteringSentence": {
+    "message": "{{action}} les requêtes réseau de {{type}} {{br}} dont l'adresse Web correspond à {{url}} {{br}} qui provient du domaine {{origin}}, {{br}}{{importance}} il y a un filtre d'exception correspondant",
+    "description": "Used in the static filtering wizard"
+  },
+  "loggerStaticFilteringSentencePartBlock": {
+    "message": "Bloquer",
+    "description": "Used in the static filtering wizard"
+  },
+  "loggerStaticFilteringSentencePartAllow": {
+    "message": "Autoriser",
+    "description": "Used in the static filtering wizard"
+  },
+  "loggerStaticFilteringSentencePartType": {
+    "message": "type \"{{type}}\"",
+    "description": "Used in the static filtering wizard"
+  },
+  "loggerStaticFilteringSentencePartAnyType": {
+    "message": "tout type",
+    "description": "Used in the static filtering wizard"
+  },
+  "loggerStaticFilteringSentencePartOrigin": {
+    "message": "\"{{origin}}\"",
+    "description": "Used in the static filtering wizard"
+  },
+  "loggerStaticFilteringSentencePartAnyOrigin": {
+    "message": "de n'importe où",
+    "description": "Used in the static filtering wizard"
+  },
+  "loggerStaticFilteringSentencePartNotImportant": {
+    "message": "sauf quand",
+    "description": "Used in the static filtering wizard"
+  },
+  "loggerStaticFilteringSentencePartImportant": {
+    "message": "même s'",
+    "description": "Used in the static filtering wizard"
+  },
+  "loggerStaticFilteringFinderSentence1": {
+    "message": "Filtre statique <code>{{filter}}</code> trouvé dans :",
+    "description": "Below this sentence, the filter list(s) in which the filter was found"
+  },
+  "loggerStaticFilteringFinderSentence2": {
+    "message": "Filtre statique introuvable parmi les listes de filtre actives",
+    "description": "Message to show when a filter cannot be found in any filter lists"
+  },
+  "loggerSettingDiscardPrompt": {
+    "message": "Les entrées du journal ne remplissant aucune des trois conditions ci-dessous seront automatiquement abandonnées :",
+    "description": "Logger setting: A sentence to describe the purpose of the settings below"
+  },
+  "loggerSettingPerEntryMaxAge": {
+    "message": "Conserver les entrées des {{input}} dernières minutes",
+    "description": "A logger setting"
+  },
+  "loggerSettingPerTabMaxLoads": {
+    "message": "Préserver {{input}} chargements de page maximum par onglet",
+    "description": "A logger setting"
+  },
+  "loggerSettingPerTabMaxEntries": {
+    "message": "Préserver {{input}} entrées maximum par onglet",
+    "description": "A logger setting"
+  },
+  "loggerSettingPerEntryLineCount": {
+    "message": "Utiliser {{input}} lignes par entrée dans le mode développé verticalement",
+    "description": "A logger setting"
+  },
+  "loggerSettingHideColumnsPrompt": {
+    "message": "Cacher les colonnes :",
+    "description": "Logger settings: a sentence to describe the purpose of the checkboxes below"
+  },
+  "loggerSettingHideColumnTime": {
+    "message": "{{input}} Heure",
+    "description": "A label for the time column"
+  },
+  "loggerSettingHideColumnFilter": {
+    "message": "{{input}} Filtre/Règle",
+    "description": "A label for the filter or rule column"
+  },
+  "loggerSettingHideColumnContext": {
+    "message": "{{input}} Contexte",
+    "description": "A label for the context column"
+  },
+  "loggerSettingHideColumnPartyness": {
+    "message": "{{input}} Niveau de partie",
+    "description": "A label for the partyness column"
+  },
+  "loggerExportFormatList": {
+    "message": "Liste",
+    "description": "Label for radio-button to pick export format"
+  },
+  "loggerExportFormatTable": {
+    "message": "Tableau",
+    "description": "Label for radio-button to pick export format"
+  },
+  "loggerExportEncodePlain": {
+    "message": "Brut",
+    "description": "Label for radio-button to pick export text format"
+  },
+  "loggerExportEncodeMarkdown": {
+    "message": "Markdown",
+    "description": "Label for radio-button to pick export text format"
+  },
+  "aboutChangelog": {
+    "message": "Journal des changements",
+    "description": ""
+  },
+  "aboutWiki": {
+    "message": "Documentation",
+    "description": "English: project' wiki on GitHub"
+  },
+  "aboutSupport": {
+    "message": "Support",
+    "description": "A link for where to get support"
+  },
+  "aboutIssues": {
+    "message": "Suivi des problèmes",
+    "description": "Text for a link to official issue tracker"
+  },
+  "aboutCode": {
+    "message": "Code Source (Licence GPLv3)",
+    "description": "English: Source code (GPLv3)"
+  },
+  "aboutContributors": {
+    "message": "Contributeurs",
+    "description": "English: Contributors"
+  },
+  "aboutSourceCode": {
+    "message": "Code source",
+    "description": "Link text to source code repo"
+  },
+  "aboutTranslations": {
+    "message": "Traductions",
+    "description": "Link text to translations repo"
+  },
+  "aboutFilterLists": {
+    "message": "Listes de filtres",
+    "description": "Link text to uBO's own filter lists repo"
+  },
+  "aboutDependencies": {
+    "message": "Dépendances externes (compatibles GPLv3) :",
+    "description": "Shown in the About pane"
+  },
+  "aboutBackupDataButton": {
+    "message": "Exporter vers un fichier",
+    "description": "Text for button to create a backup of all settings"
+  },
+  "aboutBackupFilename": {
+    "message": "mes-donnees-ublock_{{datetime}}.txt",
+    "description": "English: my-ublock-backup_{{datetime}}.txt"
+  },
+  "aboutRestoreDataButton": {
+    "message": "Importer depuis un fichier",
+    "description": "English: Restore from file..."
+  },
+  "aboutResetDataButton": {
+    "message": "Paramètres par défaut",
+    "description": "English: Reset to default settings..."
+  },
+  "aboutRestoreDataConfirm": {
+    "message": "Vos paramètres seront remplacés par les données sauvegardées le {{time}}, puis uBlock₀ redémarrera.\n\nProcéder à l'importation ?",
+    "description": "Message asking user to confirm restore"
+  },
+  "aboutRestoreDataError": {
+    "message": "Les données ne peuvent être lues ou sont invalides",
+    "description": "Message to display when an error occurred during restore"
+  },
+  "aboutResetDataConfirm": {
+    "message": "Vos paramètres seront effacés, puis uBlock₀ redémarrera.\n\nProcéder à la réinitialisation des paramètres ?",
+    "description": "Message asking user to confirm reset"
+  },
+  "errorCantConnectTo": {
+    "message": "Erreur réseau : {{msg}}",
+    "description": "English: Network error: {{msg}}"
+  },
+  "subscriberConfirm": {
+    "message": "Ajouter le lien suivant à votre sélection de listes de filtrage ?\n\nTitre : \"{{title}}\"\nLien : {{url}}",
+    "description": "No longer used"
+  },
+  "subscribeButton": {
+    "message": "Souscrire",
+    "description": "For the button used to subscribe to a filter list"
+  },
+  "elapsedOneMinuteAgo": {
+    "message": "Il y a une minute",
+    "description": "English: a minute ago"
+  },
+  "elapsedManyMinutesAgo": {
+    "message": "Il y a {{value}} minutes",
+    "description": "English: {{value}} minutes ago"
+  },
+  "elapsedOneHourAgo": {
+    "message": "Il y a une heure",
+    "description": "English: an hour ago"
+  },
+  "elapsedManyHoursAgo": {
+    "message": "Il y a {{value}} heures",
+    "description": "English: {{value}} hours ago"
+  },
+  "elapsedOneDayAgo": {
+    "message": "Il y a un jour",
+    "description": "English: a day ago"
+  },
+  "elapsedManyDaysAgo": {
+    "message": "Il y a {{value}} jours",
+    "description": "English: {{value}} days ago"
+  },
+  "showDashboardButton": {
+    "message": "Afficher le Tableau de bord",
+    "description": "Firefox/Fennec-specific: Show Dashboard"
+  },
+  "showNetworkLogButton": {
+    "message": "Voir le Journal",
+    "description": "Firefox/Fennec-specific: Show Logger"
+  },
+  "fennecMenuItemBlockingOff": {
+    "message": "Arrêt",
+    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+  },
+  "docblockedPrompt1": {
+    "message": "uBlock₀ a empêché le chargement de la page suivante :",
+    "description": "Used in the strict-blocking page"
+  },
+  "docblockedPrompt2": {
+    "message": "À cause du filtre suivant :",
+    "description": "Used in the strict-blocking page"
+  },
+  "docblockedNoParamsPrompt": {
+    "message": "sans paramètres",
+    "description": "label to be used for the parameter-less URL: https://cloud.githubusercontent.com/assets/585534/9832014/bfb1b8f0-593b-11e5-8a27-fba472a5529a.png"
+  },
+  "docblockedFoundIn": {
+    "message": "Trouvé dans :",
+    "description": "English: List of filter list names follows"
+  },
+  "docblockedBack": {
+    "message": "Retour",
+    "description": "English: Go back"
+  },
+  "docblockedClose": {
+    "message": "Fermer cette fenêtre",
+    "description": "English: Close this window"
+  },
+  "docblockedProceed": {
+    "message": "Désactiver le blocage strict du domaine {{hostname}}",
+    "description": "English: Disable strict blocking for {{hostname}} ..."
+  },
+  "docblockedDisableTemporary": {
+    "message": "De manière temporaire",
+    "description": "English: Temporarily"
+  },
+  "docblockedDisablePermanent": {
+    "message": "De manière définitive",
+    "description": "English: Permanently"
+  },
+  "cloudPush": {
+    "message": "Exporter vers le stockage dans le nuage",
+    "description": "tooltip"
+  },
+  "cloudPull": {
+    "message": "Importer depuis le stockage dans le nuage",
+    "description": "tooltip"
+  },
+  "cloudPullAndMerge": {
+    "message": "Importer depuis le stockage dans le nuage et fusionner avec les réglages actuels",
+    "description": "tooltip"
+  },
+  "cloudNoData": {
+    "message": "...\n...",
+    "description": ""
+  },
+  "cloudDeviceNamePrompt": {
+    "message": "Nom de ce périphérique :",
+    "description": "used as a prompt for the user to provide a custom device name"
+  },
+  "advancedSettingsWarning": {
+    "message": "Attention, modifiez ces paramètres avancés à vos risques et périls.",
+    "description": "A warning to users at the top of 'Advanced settings' page"
+  },
+  "genericSubmit": {
+    "message": "Appliquer",
+    "description": "for generic 'Submit' buttons"
+  },
+  "genericApplyChanges": {
+    "message": "Appliquer",
+    "description": "for generic 'Apply changes' buttons"
+  },
+  "genericRevert": {
+    "message": "Rétablir",
+    "description": "for generic 'Revert' buttons"
+  },
+  "genericBytes": {
+    "message": "octets",
+    "description": ""
+  },
+  "contextMenuTemporarilyAllowLargeMediaElements": {
+    "message": "Autoriser temporairement le chargement d'éléments médias à taille plus importante",
+    "description": "A context menu entry, present when large media elements have been blocked on the current site"
+  },
+  "shortcutCapturePlaceholder": {
+    "message": "Saisir un raccourci",
+    "description": "Placeholder string for input field used to capture a keyboard shortcut"
+  },
+  "genericMergeViewScrollLock": {
+    "message": "Verrouiller/Déverrouiller le défilement",
+    "description": "Tooltip for the button used to lock scrolling between the views in the 'My rules' pane"
+  },
+  "genericCopyToClipboard": {
+    "message": "Copier vers le presse-papier",
+    "description": "Label for buttons used to copy something to the clipboard"
+  },
+  "toggleBlockingProfile": {
+    "message": "Changer le mode de blocage",
+    "description": "Label for keyboard shortcut used to toggle blocking profile"
+  },
+  "relaxBlockingMode": {
+    "message": "Détendre le mode de blocage",
+    "description": "Label for keyboard shortcut used to relax blocking mode (meant to replace 'Toggle blocking profile')"
+  },
+  "storageUsed": {
+    "message": "Espace de stockage utilisé : {{value}} {{unit}}",
+    "description": " In Setting pane, renders as (example): Storage used: 13.2 MB"
+  },
+  "KB": {
+    "message": "Ko",
+    "description": "short for 'kilobytes'"
+  },
+  "MB": {
+    "message": "Mo",
+    "description": "short for 'megabytes'"
+  },
+  "GB": {
+    "message": "Go",
+    "description": "short for 'gigabytes'"
+  },
+  "clickToLoad": {
+    "message": "Cliquez pour charger",
+    "description": "Message used in frame placeholders"
+  },
+  "dummy": {
+    "message": "This entry must be the last one",
+    "description": "so we dont need to deal with comma for last entry"
+  },
+
+  "PremiumLocations": {
+    "message": "Emplacements de premier ordre"
+  },
+  "FreeLocations": {
+    "message": "Emplacements libres"
+  },
+  "AllLocations": {
+    "message": "Tous les lieux"
+  },
+  "FavoriteLocations": {
+    "message": "Favoris"
+  },
+  "CurrentRegionIp": {
+    "message": "Votre IP :"
+  },
+
+  "SettingsNew": {
+    "message": "NOUVEAU"
+  },
+
+  "FirstTooltipTitlePartOne": {
+    "message": "Ce que vous obtenez"
+  },
+  "FirstTooltipTitlePartTwo": {
+    "message": "avec VeePN"
+  },
+  "SecondTooltipTitle": {
+    "message": "Nos avantages !"
+  },
+  "TooltipFeature1": {
+    "message": "Cryptage des données en ligne"
+  },
+  "TooltipFeature2": {
+    "message": "Hidden IP"
+  },
+  "TooltipFeature3": {
+    "message": "Accès à des sites géographiquement restreints"
+  },
+  "TooltipFeature4": {
+    "message": "Blocage des publicités et des logiciels malveillants "
+  },
+  "TooltipFeature5": {
+    "message": "Connexions sécurisées "
+  },
+  "TooltipFeature6": {
+    "message": "Un seul compte VPN pour les applications multiplateformes"
+  },
+  "TooltipFeature7": {
+    "message": "Aucun journal d'activité. Aucun journal de connexion."
+  },
+  "TooltipFeature8": {
+    "message": "Emplacements libres"
+  },
+
+  "DomainExamplePlaceholder": {
+    "message": "domain.com, *.domain.com, *.com"
+  },
+  "AddSiteInputHint": {
+    "message": "Vous pouvez saisir la liste des sites séparés par des virgules, des points-virgules ou des sauts de ligne"
+  },
+  "ErrorNotASite": {
+    "message": "C'est un site non valide."
+  },
+  "ErrorSiteDuplicate": {
+    "message": "Ce site ne peut pas être ajouté car il est déjà sur cette liste."
+  },
+  "ErrorForbiddenSymbol": {
+    "message": "Ce personnage n'est pas autorisé"
+  },
+  "ErrorSiteEmpty": {
+    "message": "Le nom du site est vide"
+  },
+  "ConnectionModes": {
+    "message": "Modes de connexion"
+  },
+  "ExcludeMode": {
+    "message": "Exclure les sites web"
+  },
+  "ExcludeModeDescription": {
+    "message": "Ajouter les sites web que vous voulez contourner avec une connexion VeePN activée"
+  },
+  "SmartLocationDescription": {
+    "message": "Masquer automatiquement ma position lorsque je visite des sites Web spécifiques"
+  },
+  "ServersFromCountries": {
+    "message": "Serveurs de plus de 89 pays"
+  },
+  "UnlimitedSpeed": {
+    "message": "Vitesse illimitée"
+  },
+  "OptimizedStreamingServers": {
+    "message": "Serveurs de streaming optimisés"
+  },
+  "mo": {
+    "message": "mois"
+  },
+  "UpgradeToPro": {
+    "message": "Passer à Pro"
+  },
+  "BeConnectedBeSafe": {
+    "message": "Être relié. Fais attention."
+  },
+  "ChooseVeepnPremium": {
+    "message": "Choisissez VeePN Premium."
+  },
+  "PremiumServers50Countries": {
+    "message": "2500+ serveurs premium dans 50 pays"
+  },
+  "DevicesProtected": {
+    "message": "10 appareils protégés"
+  },
+  "LiveSupport": {
+    "message": "Assistance en direct 24h/24 et 7j/7"
+  },
+  "AppsForAllDevices": {
+    "message": "Applications pour tous les appareils"
+  },
+  "GetAccess": {
+    "message": "Avoir accès"
+  },
+  "MoneyBackGuarantee": {
+    "message": "Garantie de remboursement de 30 jours"
+  },
+  "NoThanksContinueAsFree": {
+    "message": "Non, merci, continuez gratuitement"
+  },
+  "TwoFactorTitle": {
+    "message": "Authentification à deux facteurs"
+  },
+  "TwoFactorSubTitle": {
+    "message": "Veuillez utiliser votre application d'authentification pour obtenir le code et entrez-le ci-dessous"
+  },
+  "ProblemWithAuthentication": {
+    "message": "Problème d'authentification ?"
+  },
+  "EnterRecoveryCode": {
+    "message": "Entrez un code de récupération"
+  },
+  "Enter2FAcode": {
+    "message": "Entrez le code 2FA"
+  },
+  "RecoveryCode": {
+    "message": "Code de récupération"
+  },
+  "CodeFieldCannotBeEmpty": {
+    "message": "Le champ de code ne peut pas être vide"
+  },
+  "Debug": {
+    "message": "Debug"
+  },
+  "DebugTitle": {
+    "message": "Journal de Debug"
+  },
+  "DownloadLogs": {
+    "message": "Télécharger les logs"
+  },
+  "ClearLogs": {
+    "message": "Effacer les logs"
+  },
+  "DebugDescription": {
+    "message": "Lorsque la fonction Journal de Debug est activée, l'extension enregistre les logs dans un fichier"
+  },
+  "EnabledDebugMode": {
+    "message": "Journal de debug activé"
+  },
+  "DisabledDebugMode": {
+    "message": "Journal de debug désactivé"
+  },
+  "NoLogs": {
+    "message": "Aucun journal pour le moment"
+  }
+}
