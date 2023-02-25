@@ -1,0 +1,32 @@
+.current-region {
+    width: 280px;
+}
+
+.download-app-message {
+    line-height: 14px;
+}
+
+.sml-banner .sml-banner-button {
+    font-size: 11px;
+}
+
+.FullScreenBanner .footer-label {
+    margin-top: 10px;
+}
+
+.FullScreenBanner .icon-list li {
+    font-size: 14px;
+}
+
+.FullScreenBanner .title {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.FullScreenBanner .get-access-button {
+    height: 42px;
+}
+
+.FullScreenBanner .icon-list {
+    margin-top: 20px;
+}
