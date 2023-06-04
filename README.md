@@ -1,2 +1,2 @@
-# Python-Projects
-Almost every type of social media &amp; website are scrape also games are avalliable!...
+
+<h1>There are numerous sources of source code available for scraping various types of social media platforms and websites.
