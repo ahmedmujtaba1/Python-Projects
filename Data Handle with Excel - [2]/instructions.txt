@@ -1,0 +1,72 @@
+1. Compare "Property Address Formatted" and "Owner Address"  - Create a new Column named "Absentee", compare entries in each cell and if they match enter OO in the absentee column, if they dont match, add Absentee in the absentee column
+
+2. Check "Current Owner Name" against business.txt and trust.txt files. Create new Column named "Owner-Type" - if there is a match with any of the words in the business file, add the word business, if there is a match in the trust.txt file, add the word trust, if there is no match add the word "Person"
+
+3. Check "Current Owner Name" & "Owner Address" to see if there are matches throughout the file, we want to see if the person owns multiple properties. Create a new column named "Multiple Properties" if there is a match, add Yes, if there is no match add NO
+
+4. Create a new column named "Notes" - add the following information Column name - and info in the cell for the following columns - Sale Amount, Settle Date, County, Property Class, Absentee, Multiple Properties
+
+Sale Amount: 412000 - Settle Date: 8/9/2021 - County: CAMDENNJ - Property Class: Exempt/Inst - Absentee: OO - Multiple Properties: Yes
+
+
+***PLEASE NOTE***
+Column order may be different than the files I am sharing since your script will be adding some and other software will be adding some:
+
+When processing file that has the matching columns of input file 1, complete steps 1-4
+
+Output File - 1 file with additional columns from steps 1 - 4 (add "output" and the time and date that the script ran to filename for output file name) example:
+Gloucester-NJ-Pre-2018-Absentee_20230830_154526.csv
+
+
+
+When processing file that has the matching columns of input file 2, we want to use part of the logic from the script that I shared to create the 2 output files.
+
+Output File
+
+Please add the following Columns to this file
+
+First Name,Middle Name,Last Name,Prefix,Suffix,Full Legal Name,About,Birthday,Home Anniversary,Cell Phone,Is Primary? (mark Y),Home Phone,Is Primary? (mark Y),Work Phone,Is Primary? (mark Y),Other Phone,Is Primary? (mark Y),Personal Email,Primary? (mark Y),Work Email,Primary? (mark Y),Other Email,Primary? (mark Y),Address line one,Address line two,City,State,Zip code,Country,Label,Address line one,Address line two,City,State,Zip code,Country,Label,Address line one,Address line two,City,State,Zip code,Country,Label,,Tags,Source,Notes,Facebook,Twitter,Linkedin,Pinterest,Instagram
+
+
+
+When adding information to the columns there are a few things I need to point out:
+
+Contact needs to have the "Status" column next to  phone number with a an entry of "Call"
+
+
+ZB Status - Valid
+Status - Call
+
+
+If the line does not have a status of Call OR a ZB status of Valid - Do not add the line to the file
+
+We will map the following columns:
+First Name - Owner Label Name
+Last Name - Owner Last Name
+Full Legal Name - Current Owner Name
+Cell Phone - PhoneNumber 1
+Is Primary? (mark Y) - ADD Y next to any line that has a Cell Phone Number, if cell phone number does not exist, leave empty
+Personal Email - Email 1
+Primary? (mark Y) - ADD Y next to any line that has a Cell Phone Number, if cell phone number does not exist, leave empty
+Address line one - Property Address Formatted
+City -  City (This is tricky because they combine City AND State, we need to separate the state from this field, State will always be TWO letters at the end, Example: HADDONFIELD NJ, Haddonfield is the city, NJ is the state, Remove state abbreviation (NJ) from the City column and add to state
+State - See Above
+Zip code - Postal Code & Owner Carrier Route  (Combine the two but separate with - if Carrier route is empty, DO NOT ADD DASH) example: 08104-C053
+Label - Property Address
+
+Address line one - Owner Address
+City - Owner City State (This is tricky because they combine City AND State, we need to separate the state from this field, State will always be TWO letters at the end, Example: HADDONFIELD NJ, Haddonfield is the city, NJ is the state, Remove state abbreviation (NJ) from the City column and add to state
+State - See Above
+Zip code - Owner Postal Code & Owner Carrier Route  (Combine the two but separate with - if Carrier route is empty, DO NOT ADD DASH) example: 08104-C053
+Label - Mailing Address
+Tags - For Every Entry Add "BL-Referral"
+Notes - Notes
+
+
+
+--------------------Last Step-----------------------------------
+
+
+Change case of all text to lower case and capitalize the first letter of every word
+
+ 
